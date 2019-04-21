@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-group:not(:last-child){
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.form-group > label{
+    position: absolute;
+    top: -14px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+}
